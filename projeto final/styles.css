@@ -20,12 +20,11 @@ section, footer{
 h3{
     font-size: 50px;
 }
-
-
-
 .container{
     max-width: 1400px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 .btn{
   background-color: #4f9cf9;  
@@ -43,30 +42,40 @@ background-color: #3580db;
 header{
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;   
-}
-nav{
+    position: fixed;
+    background-color: #000000ce;
+    width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding-top: 30px;
 }
 
 .navegation{
-    position: fixed;
-    background-color: #000000ce;
-    width: 100vw;
-    list-style: none;
-    justify-content: center;
-    
+    height: 100px;
+    z-index: 2;
 }
+.ul{
 
+    height: 100%;
+}
+.container_contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.container_express{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 nav ul{
     display: flex;
     align-items: center;
     list-style: none;
     align-items: center;
-    
 }
 nav ul a{
     color: white;
@@ -96,7 +105,6 @@ nav .menu-icon{
     font-size: 25px;
     color: white;
     display: none;
-
 }
 nav .closs-icon{
     display: none;
@@ -106,6 +114,11 @@ nav .closs-icon{
 .banner{
     display: flex;
     justify-content: center;
+    background-image: url('background.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
 }
 
 .banner .banner-text{
@@ -134,7 +147,12 @@ nav .closs-icon{
     overflow: hidden;
     justify-content: center;
 }
-
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
 .faça-mais .faça-mais-text{
 
     width: 50%;
@@ -155,7 +173,7 @@ nav .closs-icon{
     display: flex;
     justify-content: center;
     align-items: center;
-   
+   text-align: center;
 }
 
 .depoimento h3{
