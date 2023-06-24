@@ -11,22 +11,23 @@
 <body>
     <header style="background-image: url('background.png');">
         <div class="container">
-            <nav>
-                <a href="index.html"><img src="logo.jpg" alt=></a>
+            <nav class="navegation">
+
+                <!-- <a href="index.html"><img src="logo.jpg" alt=></a> -->
                 <ul class="ul">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="serviços.html">Serviços</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#serviços">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
                     <li class="closs-icon">
                         <i class="fa fa-times-circle"></i>
                     </li>
                 </ul>
                 <div class="menu-icon" onclick="openMenu()">
                     <i class="fa fa-bars"></i>
-                </div>
+pacotes.jpg                </div>
             </nav>
-            <section class="banner">
+            <section class="banner" >
                 <div class="banner-text">
                     <h1>KENEDY</h1>
                     <p>KENEDY Express - sua entrega mais rápida e segura</p>
@@ -37,7 +38,7 @@
         </div>
     </header>
     
-    <section class="faça-mais"> 
+    <section class="faça-mais" id="serviços" > 
         <div class="container">
             <div class="faça-mais-texto">
                 <div class="faça-mais-img">
@@ -63,7 +64,7 @@
         </div>
     </section>
       
-    <section class="depoimento">
+    <section class="depoimento" id="sobre">
         <div class="container">
             <h3>Nossos depoimentos</h3>
             <p>Feedbacks dos nossos clientes</p>
@@ -126,7 +127,7 @@
     </section> 
   
     <footer class="footer">
-        <div class="container">
+        <div class="container" id="contato">
             <div class="link">
                 <a href="https://contate.me/kenedyexpress"><i class="fa fa-whatsapp"></i></a>
                 <a href="https://instagram.com/_thiago_yuri?igshid=NTc4MTIwNjQ2YQ=="><i class="fa fa-instagram"></i></a>

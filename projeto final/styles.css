@@ -26,7 +26,6 @@ h3{
 .container{
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 5%;
 }
 .btn{
   background-color: #4f9cf9;  
@@ -53,9 +52,21 @@ nav{
     padding-top: 30px;
 }
 
+.navegation{
+    position: fixed;
+    background-color: #000000ce;
+    width: 100vw;
+    list-style: none;
+    justify-content: center;
+    
+}
+
 nav ul{
     display: flex;
     align-items: center;
+    list-style: none;
+    align-items: center;
+    
 }
 nav ul a{
     color: white;
@@ -120,7 +131,8 @@ nav .closs-icon{
 
     display:  flex;
     align-items: center;
-
+    overflow: hidden;
+    justify-content: center;
 }
 
 .faça-mais .faça-mais-text{
@@ -139,10 +151,11 @@ nav .closs-icon{
 }
 .faça-mais .faça-mais-img{
 
-    width: 50%;
-}
-.faça-mais .faça-mais-img img{
-    width: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .depoimento h3{
